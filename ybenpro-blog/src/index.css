@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 660px;
+  margin: 10px auto;
+  padding: 1rem 0;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #5b52ad;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.liens {
+  list-style: none;
+  display: flex;
+}
+
+.liens li {
+  margin-right: 2rem;
+}
+
+.liens li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #565e5c;
+}
+
+.liens li a:hover {
+  color: #5b52ad;
+}
+
+.contenu {
+  width: 760px;
+  margin: 0 auto;
+}
+
+.bloglist {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.blog {
+  text-align: left;
+  padding: 0.2rem;
+  margin: 1rem 0;
+}
+
+.blog:hover {
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  border-radius: 4%;
+}
+
+.blog-desciption-date {
+  font-style: italic;
+  color: rgb(227, 138, 30);
+  padding: 10px;
+}
+
+.blog-title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  color: #b6b1e5;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+}
+
+.blog-body {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #9a153b;
+}
+
+.blog-author {
+  font-style: italic;
+  color: #78918a;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.bloglist h2 {
+  text-decoration: underline;
+}
